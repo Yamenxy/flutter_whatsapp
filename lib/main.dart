@@ -269,8 +269,8 @@ class _ChatScreenState extends State<ChatScreen> {
               border: Border.all(color: Colors.white24, width: 1.2),
             ),
             child: ClipOval(
-              child: Image.asset(
-                'images/profile_image.png',
+                child: Image.asset(
+                  'assets/images/profile_image.png',
                 width: 40,
                 height: 40,
                 fit: BoxFit.cover,
@@ -374,7 +374,7 @@ class _ChatScreenState extends State<ChatScreen> {
         children: [
           Positioned.fill(
             child: Image.asset(
-              'images/background_pattern.png',
+              'assets/images/background_pattern.png',
               fit: BoxFit.cover,
               color: Colors.black.withOpacity(0.55),
               colorBlendMode: BlendMode.dstATop,
@@ -510,7 +510,7 @@ class _ChatScreenState extends State<ChatScreen> {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(8),
               child: Image.asset(
-                'images/Camera.png',
+                'assets/images/Camera.png',
                 fit: BoxFit.contain,
                 errorBuilder: (c, e, s) => Center(
                     child: Icon(Icons.image,
